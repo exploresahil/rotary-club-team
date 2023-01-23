@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Rotary Club</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      sizes="21x21"
+      href="./assets/logos/Rotary_logo_favicon.svg"
+    />
+  </head>
+
+  <body>
+    <header class="flex flex-jc-sb flex-ai-ctr">
+      <img
+        src="./assets/logos/Rotary_logo.png"
+        alt="Rotary Club"
+        class="logo_img"
+        title="Rotary Club - Home"
+      />
+
+      <nav>
+        <ul class="flex flex-jc-sb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Governing Board</a></li>
+          <li><a href="#">Members</a></li>
+          <li class="dropdown">
+            <a href="#">Projects</a>
+            <div class="dropdown-element flex flex-fd-col">
+              <a href="#">Completed Projects</a>
+              <a href="#">Upcoming Projects </a>
+            </div>
+          </li>
+          <li><a href="#">Photo Gallery</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!------------------------------------------------------Login-->
+
+      <div class="logIn flex">
+        <button>LogIn</button>
+        <button>Register</button>
+      </div>
+    </header>
+
+    <!------------------------------------------------------Hero Image Slider-->
+
+    <main>
+      <section class="hero-slider">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img
+              src="https://images.unsplash.com/photo-1673901736420-0bf90fcf1b27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+              style="width: 100%"
+            />
+            <div class="text">Caption One</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://images.unsplash.com/photo-1673981171808-549ab1f51f1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              style="width: 100%"
+            />
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              style="width: 100%"
+            />
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://images.unsplash.com/photo-1674068331911-555750338b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              style="width: 100%"
+            />
+            <div class="text">Caption Four</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              style="width: 100%"
+            />
+            <div class="text">Caption Five</div>
+          </div>
+        </div>
+
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <!------------------------------------------------------Infograpg-->
+
+      <section class="infograph flex flex-jc-ctr">
+        <div class="infograph-card">
+          <img src="./assets/svg/calendar.svg" />
+          <div class="infograph-text">
+            <h4>Years</h4>
+            <p>2022-2023</p>
+          </div>
+        </div>
+        <div class="infograph-card">
+          <img src="./assets/svg/hand.svg" />
+          <div class="infograph-text">
+            <h4>Projects</h4>
+            <p>44</p>
+          </div>
+        </div>
+        <div class="infograph-card">
+          <img src="./assets/svg/human.svg" />
+          <div class="infograph-text">
+            <h4>Beneficiaries</h4>
+            <p>13,408</p>
+          </div>
+        </div>
+        <div class="infograph-card">
+          <img src="./assets/svg/rupee.svg" />
+          <div class="infograph-text">
+            <h4>Cost</h4>
+            <p>90,44,500</p>
+          </div>
+        </div>
+        <div class="infograph-card">
+          <img src="./assets/svg/clock.svg" />
+          <div class="infograph-text">
+            <h4>Man Hours</h4>
+            <p>5,153</p>
+          </div>
+        </div>
+        <div class="infograph-card">
+          <img src="./assets/svg/users.svg" />
+          <div class="infograph-text">
+            <h4>Members</h4>
+            <p>258</p>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------------Featured Image Slider-->
+
+      <section class="projects-section flex flex-fd-col flex-ai-ctr">
+        <h3>Featured Projects</h3>
+        <div class="projects-section-container">
+          <div class="projects-cards">
+            <div class="card-container">
+              <div class="card-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1674068331911-555750338b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="card-project-title">
+                <h4>Project Name</h4>
+                <button class="project-page">learn more</button>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="card-project-title">
+                <h4>Project Name</h4>
+                <button class="project-page">learn more</button>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="card-project-title">
+                <h4>Project Name</h4>
+                <button class="project-page">learn more</button>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="card-project-title">
+                <h4>Project Name</h4>
+                <button class="project-page">learn more</button>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="card-project-title">
+                <h4>Project Name</h4>
+                <button class="project-page">learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="slide-controls">
+            <button id="prev-btn">
+              <img
+                src="./assets/svg/circle-arrow-left-solid.svg"
+                alt="arrow-left"
+              />
+            </button>
+            <button id="next-btn">
+              <img
+                src="./assets/svg/circle-arrow-right-solid.svg"
+                alt="arrow-right"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------------Board Members-->
+
+      <section class="board-members-main flex flex-ai-ctr flex-fd-col">
+        <h3>Board Members</h3>
+        <div class="board-members-main-container flex">
+          <div class="members-card">
+            <div class="members-photo-container">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              />
+            </div>
+            <div class="members-title">
+              <div class="members-text">
+                <h4>First Last</h4>
+                <p>Designation</p>
+              </div>
+              <button>Know More</button>
+            </div>
+          </div>
+          <div class="members-card">
+            <div class="members-photo-container">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              />
+            </div>
+            <div class="members-title">
+              <div class="members-text">
+                <h4>First Last</h4>
+                <p>Designation</p>
+              </div>
+              <button>Know More</button>
+            </div>
+          </div>
+          <div class="members-card">
+            <div class="members-photo-container">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              />
+            </div>
+            <div class="members-title">
+              <div class="members-text">
+                <h4>First Last</h4>
+                <p>Designation</p>
+              </div>
+              <button>Know More</button>
+            </div>
+          </div>
+          <div class="members-card">
+            <div class="members-photo-container">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              />
+            </div>
+            <div class="members-title">
+              <div class="members-text">
+                <h4>First Last</h4>
+                <p>Designation</p>
+              </div>
+              <button>Know More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------------Projects Images Search-->
+
+      <section class="photo-gallery-main">
+        <nav class="photos-search flex flex-jc-ctr flex-ai-ctr">
+          <h4>Photo Gallery</h4>
+          <form action="#" class="flex flex-ai-ctr">
+            <label for="year">Select Year:</label>
+            <select name="school" id="schoolContainer">
+              <option value="current" selected="current">Current</option>
+              <option value="project-2022">2022</option>
+              <option value="project-2021">2021</option>
+              <option value="project-2020">2020</option>
+              <option value="project-2019">2019</option>
+              <option value="project-2018">2018</option>
+              <option value="project-2017">2017</option>
+            </select>
+            <input type="submit" value="Apply" />
+          </form>
+        </nav>
+      </section>
+
+      <!------------------------------------------------------Project Images Gallery-->
+
+      <section class="image-gallery grid">
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+        <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1674147964836-938232c5b41a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="./dist/script.js"></script>
+  </body>
+</html>

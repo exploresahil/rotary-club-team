@@ -1,0 +1,106 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+//*--------------------> mediaQuroes 
+
+//*----------> smartWatch
+
+// @media screen and (max-width: 270px)
+
+//*----------> smallMobile
+
+// @media screen and (min-width: 271px) and (max-width: 360px)
+
+//*----------> largeMobile
+
+// @media screen and (min-width: 361px) and (max-width: 767px)
+
+//*----------> Tablets 
+
+// @media screen and (min-width: 768px) and (max-width:1023px)
+
+//*----------> Desktop
+
+// @media screen and (min-width: 1024px) and (max-width:1280px)
+
+//*----------> Largedesktop
+
+// @media screen and (min-width:1280px)
+
+
+//*--------------------> Flex Styles
+
+.flex {
+    display: flex;
+
+    &-jc-ctr {
+        justify-content: center;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-sa {
+        justify-content: space-around;
+    }
+
+    &-ai-ctr {
+        align-items: center;
+    }
+
+    &-fd-col {
+        flex-direction: column;
+    }
+}
+
+//*--------------------> Grid Styles
+
+.grid {
+    display: grid;
+
+    &-jc-ctr {
+        justify-content: center;
+    }
+
+    &-pi-ctr {
+        place-items: center;
+    }
+}
