@@ -11,6 +11,8 @@ html {
 
 //*----------> for Desktop
 
+//*----------> Header Section
+
 header {
 
     position: fixed;
@@ -46,6 +48,8 @@ header {
         }
     }
 
+        //*----------> Login
+
     .logIn {
         gap: 0.6em;
 
@@ -74,6 +78,8 @@ header {
         }
     }
 }
+
+//*----------> Header Dropdown
 
 .dropdown {
     position: relative;
@@ -368,7 +374,7 @@ header {
 }
 
 
-
+//*----------> Board-Members Section
 
 .board-members-main {
 
@@ -454,6 +460,8 @@ header {
         }
     }
 }
+
+//*----------> Photo Gallery Section
 
 
 .photo-gallery-main {
