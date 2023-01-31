@@ -529,3 +529,22 @@ header {
     }
 }
 
+//*----------> Footer Section
+
+footer {
+    width: 100vw;
+    
+    padding: 0 120px;
+
+    height: auto;
+
+    .footer-container {
+        margin: 40px 0;
+
+        .footer-left {
+            img {
+                height: 60px;
+            }
+        }
+    }
+}
